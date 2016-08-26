@@ -1,0 +1,27 @@
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\EmojiPins2.exe.config
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.login.resources
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.Resources.resources
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.Task_manager.resources
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.vbproj.GenerateResource.Cache
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.xml
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\EmojiPins2.exe
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\EmojiPins2.pdb
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\EmojiPins2.xml
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.exe
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.pdb
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.vbprojResolveAssemblyReference.cache
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.main_form.resources
+c:\users\parth\documents\visual studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.pin.resources
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.Statement.resources
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.fundtransfer.resources
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.currencyexchange.resources
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\Interop.MSXML2.dll
+C:\Users\Parth\Documents\Visual Studio 2015\Projects\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.vbproj.ResolveComReference.cache
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\bin\Debug\EmojiPins2.exe.config
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\obj\Debug\Interop.MSXML2.dll
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.vbproj.ResolveComReference.cache
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.exe
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.xml
+E:\Parth\BE Project\EmojiPins2\EmojiPins2\obj\Debug\EmojiPins2.pdb

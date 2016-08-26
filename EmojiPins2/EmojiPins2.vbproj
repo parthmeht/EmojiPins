@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8133391-37C8-427F-97A5-A877FF70E501}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EmojiPins2.My.MyApplication</StartupObject>
+    <RootNamespace>EmojiPins2</RootNamespace>
+    <AssemblyName>EmojiPins2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EmojiPins2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EmojiPins2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aes.vb" />
+    <Compile Include="currencyexchange.Designer.vb">
+      <DependentUpon>currencyexchange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="currencyexchange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fundtransfer.Designer.vb">
+      <DependentUpon>fundtransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fundtransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_form.Designer.vb">
+      <DependentUpon>main_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pin.Designer.vb">
+      <DependentUpon>pin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statement.Designer.vb">
+      <DependentUpon>Statement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Statement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task_manager.Designer.vb">
+      <DependentUpon>Task_manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Task_manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="currencyexchange.resx">
+      <DependentUpon>currencyexchange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fundtransfer.resx">
+      <DependentUpon>fundtransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_form.resx">
+      <DependentUpon>main_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pin.resx">
+      <DependentUpon>pin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statement.resx">
+      <DependentUpon>Statement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task_manager.resx">
+      <DependentUpon>Task_manager.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\Heart-eyes-emoji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\persons-0008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\tumblr_static_95p88l86si88ks4w4wws04wk8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\EMOvictory.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\trophy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\cake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\objects-0207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\beer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\shit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\shit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Images\person-raising-both-hands-in-celebration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
